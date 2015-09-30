@@ -1,3 +1,5 @@
 <h1><%= @post.title %></h1>
+<%= link_to "Edit", edit_post_path(@post), class: 'btn btn-success' %>
+
 <p><%= @post.body %></p>
-<!-- the  code above is giving the following error: undefined local variable or method `post'   -->
+<!-- the  code above is giving the following error: undefined local variable or method `post' ( i was missing the s on posts)   -->
